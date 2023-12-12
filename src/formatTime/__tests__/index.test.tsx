@@ -11,6 +11,6 @@ describe('formatTime', () => {
   it('默认格式化指定时间', () => {
     const timestamp = 1681216363389;
     const formattedDate = formatTime(timestamp);
-    expect(formattedDate).toEqual('2023-04-11 20:32:43 1111');
+    expect(formattedDate).toEqual('2023-04-11 20:32:43');
   });
 });
