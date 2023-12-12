@@ -15,7 +15,7 @@ function formatTime(timestamp: number, format='YYYY-MM-DD hh:mm:ss'): string {
   const seconds = ('0' + date.getSeconds()).slice(-2);
   const map: { [key: string]: string } = {
     YYYY: String(year),
-    MM: month,
+    MM: month + 1,
     DD: day,
     hh: hours,
     mm: minutes,
