@@ -14,4 +14,6 @@ export default defineConfig({
        width: 220px !important;
     }`,
   ],
+  // 取消打包静态单个组件库和函数工具
+  exportStatic: false
 });
